@@ -23,13 +23,304 @@ a{text-decoration: none;}
 
 
 body {
-	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+background-color: #FFEFD5;
 }
 
 * {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin: 0 auto;
+    background-color: silver;
+}
+
+.wrapper {
+    margin-left: auto;
+    font-size: 12px;
+}
+
+.wrapper ul{
+    display: flex;
+}
+
+
+.wrapper ul li {
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.wrapper a {
+    display: block;
+    color: gray;
+}
+
+.active {
+    color:black;
+}
+
+.site-title a {
+display: block;
+padding-left: 20px;
+font-size: 30px;
+font-weight:bold;
+color: black;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    height: 35px;
+}
+
+input[type="submit"],
+input[type="Search"] {
+  border: none; 
+  outline: none;  
+  border-radius: 2px;
+}
+
+
+
+.swiper {
+  width: auto;
+  height: 500px;
+}
+
+.info-top {
+    font-size: 30px;
+}
+
+.swiper-slide {
+    /* 文字配置調整、背景色設定 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background-color: #dfe7fd;
+}
+
+.swiper-slide > img {
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width:800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.info-bottom {
+    display: flex;
+    align-items:center;
+    padding-left: 15px;
+    font-size: 20px;
+    background-color: #FFC7AF;
+    width: 900px;
+    height: 55px;
+}
+
+.info ul {
+display: block;
+}
+
+.info ul li {
+    list-style-type: disc; 
+    justify-content: flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.samon {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    
+}
+
+.coffee {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+    
+
+
+.ourfood {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.food_photo {
+display: flex;
+}
+
+
+
+.foodname {
+    display: flex;
+    align-items: flex-start;
+    font-weight:bold;
+}
+
+.setsumei {
+    padding-left: 40px;
+    padding-top: 25px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+
+#navigation {
+    display: flex;
+    justify-content: center;
+}
+
+
+.adless {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 20px;
+    color: white;
+    width:800px;
+    height:300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+}
+
+
+
+.adless h1 .adress-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.adless img {
+    padding-left: 20px;
+}
+.ssss {
+font-weight:bold;
+}
+
+.shoplist h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.photoall img {
+    display: flex;
+    justify-content: center;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.chimei {
+    display: flex;
+    justify-content: center;
+}
+.chimei p {
+    display: flex;
+    justify-content: center;
+}
+
+.pin {
+  display: inline-block;
+  vertical-align: middle;
+  color: #333;
+  line-height: 1;
+  position: relative;
+  width: 0.8em;
+  height: 0.8em;
+  background: currentColor;
+  border: 0.1em solid currentColor;
+  border-radius: 40% 60% 0% 100% / 40% 100% 0% 60%;
+  box-sizing: content-box;
+  transform: rotate(45deg);
+}
+
+.pin::before {
+  content: '';
+  position: absolute;
+  top: 18%;
+  left: 18%;
+  width: 0.336em;
+  height: 0.336em;
+  background: #fff;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 60px;
+    margin: 0 auto;
+    background-color: silver;
+}
+
+.lololo ul{
+    display: flex;
+}
+
+
+.lololo ul li {
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.lololo a {
+    display: block;
+    color: black
+}
+
+
+.content_img {
+    width: 410px;
+    height: 290px;
 }

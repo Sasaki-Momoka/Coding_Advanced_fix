@@ -1,0 +1,15 @@
+
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+@media (min-width: 768px)
+.col-md-2 {
+   width: 16.666667%;
+}

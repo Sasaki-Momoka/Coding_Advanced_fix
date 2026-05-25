@@ -36,13 +36,11 @@ background-color: #FFEFD5;
 }
 
 
-#header {
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: auto;
-    height: 50px;
-    margin: 0 auto;
     background-color: silver;
 }
 
@@ -156,89 +154,60 @@ display: block;
 
 
 
-.samon {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    
+.content_img {
+   width: 100%;
+  max-width: none !important;
 }
-
-.coffee {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: 60px;
-}
-    
-
-
-.ourfood {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-bottom: 10px;
-    
-}
-
-
 
 .food_photo {
 display: flex;
 }
 
-
-
-.foodname {
-    display: flex;
-    align-items: flex-start;
-    font-weight:bold;
-}
-
-.setsumei {
-    padding-left: 40px;
-    padding-top: 25px;
-    font-size: 16px;
-    flex-wrap: wrap;
-    width: 400px;
+.txt_top {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
-#navigation {
+
+
+.navigation {
     display: flex;
     justify-content: center;
-}
-
-
-.adless {
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    margin: 20px;
-    color: white;
-    width:800px;
-    height:300px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-
+       color: white;
+     
 }
 
 
 
-.adless h1 .adress-text {
+
+.adless h1 .adless_txt {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
 
-.adless img {
-    padding-left: 20px;
+.small_txt {
+    font-size: 12px;
 }
-.ssss {
+.bigtxt{
+    font-size: 20px;
 font-weight:bold;
+}
+
+
+
+.xx {
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.shop_big {
+    font-size: 20px;
+    padding-top: 30px;
 }
 
 .shoplist h1 {
@@ -248,23 +217,20 @@ font-weight:bold;
     font-size: 30px;
 }
 
-.photoall img {
+.adless_img {
     display: flex;
     justify-content: center;
-    width:150px;
-    height:150px;
     border-radius: 50%;
+     width: 200px;  
+    height: 200px; 
     margin: 30px;
 }
 
-.chimei {
-    display: flex;
-    justify-content: center;
+.black_img {
+    height: 350px;
+    width:auto;
 }
-.chimei p {
-    display: flex;
-    justify-content: center;
-}
+
 
 .pin {
   display: inline-block;
@@ -293,34 +259,25 @@ font-weight:bold;
   box-sizing: border-box;
 }
 
-
-#footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
-    height: 60px;
-    margin: 0 auto;
-    background-color: silver;
+.footer {
+    display: contents;
+    justify-content: center;
+    background-color: #333;
 }
 
-.lololo ul{
-    display: flex;
+.fadeIn {
+  opacity: 0;
+  transition: 2s;
 }
-
-
-.lololo ul li {
-    justify-content: flex-end;
-    margin-right: 20px;
-}
-
-.lololo a {
-    display: block;
-    color: black
+.fadeIn.is-show {
+  opacity: 1;
 }
 
 
-.content_img {
-    width: 410px;
-    height: 290px;
-}
+
+
+
+
+
+
+

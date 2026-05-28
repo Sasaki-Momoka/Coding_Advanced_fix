@@ -60,6 +60,8 @@ background-color: #FFEFD5;
 }
 .btn {
     background-color: #F5F5F5;
+    border: none;
+    color: black;
 }
 
 .wrapper {

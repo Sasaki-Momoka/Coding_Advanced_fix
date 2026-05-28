@@ -43,6 +43,11 @@ background-color: #FFEFD5;
     align-items: center;
     background-color: silver;
 }
+.navbar-toggler:focus {
+  box-shadow:0px 0px 0px 2px #FFD700,
+  0px 0px 0px 4px #FFFAFA;
+}
+
 
 
 
@@ -53,6 +58,14 @@ background-color: #FFEFD5;
 .nav-item {
     list-style: none;
 }
+
+.nav-list {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
 
 
 .menu {
@@ -84,9 +97,10 @@ font-size: 17px;
     color: gray;
 }
 
-.active {
+.nav-item .active {
     color:black;
 }
+
 
 .accordion-button {
     background-color: #FFC7AF;
@@ -99,12 +113,14 @@ font-size: 17px;
 }
 
 .accordion-button:not(.collapsed) {
-  box-shadow: none;
+   box-shadow: none;
+   background-color:  #FFC7AF;
+   color: black;
 }
 
 
 .accordion-button {
-    font-size: 25px;
+    font-size: 19px;
 }
 
 .contact-form {
@@ -146,9 +162,10 @@ input[type="Search"] {
     height:100%;
 }
 
+
 .fadeIn {
   opacity: 0;
-  transition: 2s;
+  transition: 3s;
 }
 .fadeIn.is-show {
   opacity: 1;
@@ -170,13 +187,6 @@ input[type="Search"] {
 .section {
     display: flex;
     justify-content: center;
-}
-.nav-list {
-  display: flex;
-  gap: 30px;
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px 0;
 }
 
 

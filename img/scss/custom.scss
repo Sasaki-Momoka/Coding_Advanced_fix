@@ -8,11 +8,21 @@ $prefix: "mo-";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
-@media (min-width: 768px) {
+@media (min-width: 757px) {
 .col-md-2 {
    width: 16.666667%; }
 
+.swiper-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 画像の比率を保ったまま枠いっぱいに表示 */
 }
+}
+
+
 
 
 

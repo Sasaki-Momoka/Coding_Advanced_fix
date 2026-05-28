@@ -8,12 +8,18 @@ const swiper = new Swiper('.swiper', {
   slidePerview: 1,
 
   breakpoints: {
-    500: {
+    800: {
       slidesPerView: 2,
-
-    }
   },
 
+765: {
+      slidesPerView: 1,
+     }
+  },
+
+  autoplay: {
+    delay: 3000,  // 3秒ごとにスライドを自動切り替え
+  },
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',

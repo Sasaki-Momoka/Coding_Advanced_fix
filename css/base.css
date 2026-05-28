@@ -44,18 +44,36 @@ background-color: #FFEFD5;
     background-color: silver;
 }
 
+
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+.nav-item {
+    list-style: none;
+}
+
+
+.menu {
+    font-size: 17px;
+}
+.btn {
+    background-color: #F5F5F5;
+}
+
 .wrapper {
     margin-left: auto;
     font-size: 12px;
 }
 
-.wrapper ul{
-    display: flex;
+.accordion-body ul, li {
+    list-style-type: disc; 
+font-size: 17px;
+
 }
 
-
 .wrapper ul li {
-    justify-content: flex-end;
     margin-right: 20px;
 }
 
@@ -68,12 +86,23 @@ background-color: #FFEFD5;
     color:black;
 }
 
-.site-title a {
-display: block;
-padding-left: 20px;
-font-size: 30px;
-font-weight:bold;
-color: black;
+.accordion-button {
+    background-color: #FFC7AF;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  background-color: #FFC7AF;
+  color: black;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+
+
+.accordion-button {
+    font-size: 25px;
 }
 
 .contact-form {
@@ -102,7 +131,6 @@ input[type="Search"] {
 }
 
 .swiper-slide {
-    /* 文字配置調整、背景色設定 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,6 +144,14 @@ input[type="Search"] {
     height:100%;
 }
 
+.fadeIn {
+  opacity: 0;
+  transition: 2s;
+}
+.fadeIn.is-show {
+  opacity: 1;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -125,33 +161,21 @@ input[type="Search"] {
     text-align: left;
 }
 
-.info-bottom {
-    display: flex;
-    align-items:center;
-    padding-left: 15px;
-    font-size: 20px;
-    background-color: #FFC7AF;
-    width: 900px;
-    height: 55px;
-}
 
-.info ul {
-display: block;
+.accordion-body li {
+    padding-bottom: 15px;
 }
-
-.info ul li {
-    list-style-type: disc; 
-    justify-content: flex-start;
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-}
-
 .section {
     display: flex;
     justify-content: center;
 }
-
+.nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
 
 
 .content_img {
@@ -168,7 +192,9 @@ display: flex;
     font-size: 20px;
 }
 
-
+.acordion-page h1 {
+    font-size: 35px;
+}
 
 
 .navigation {
@@ -198,12 +224,9 @@ font-weight:bold;
 
 
 
-.xx {
+.adless {
     background-color: black;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+   
 }
 .shop_big {
     font-size: 20px;
@@ -226,10 +249,6 @@ font-weight:bold;
     margin: 30px;
 }
 
-.black_img {
-    height: 350px;
-    width:auto;
-}
 
 
 .pin {
@@ -260,23 +279,12 @@ font-weight:bold;
 }
 
 .footer {
-    display: contents;
-    justify-content: center;
-    background-color: #333;
+    background-color: #999999;
 }
 
-.fadeIn {
-  opacity: 0;
-  transition: 2s;
+.footer a {
+    color: black;
 }
-.fadeIn.is-show {
-  opacity: 1;
-}
-
-
-
-
-
 
 
 

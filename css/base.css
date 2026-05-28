@@ -165,7 +165,8 @@ input[type="Search"] {
 
 .fadeIn {
   opacity: 0;
-  transition: 3s;
+  transform: translateY(100px);
+  transition: 2s;
 }
 .fadeIn.is-show {
   opacity: 1;
@@ -236,10 +237,10 @@ font-weight:bold;
 
 
 
-.adless {
+.black_adless {
     background-color: black;
-   
 }
+
 .shop_big {
     font-size: 20px;
     padding-top: 30px;

@@ -13,41 +13,42 @@
 <body>
 
 <div class="header">
- <div class="container-fluid">
- <div class="low">
+<div class="container-fluid">
+<div class="low">
 
   <!-- スマホ -->
   <div class="d-none d-md-none">
     <nav class="navbar bg-body-tertiary fixed-top">
       <a class="navbar-brand" href="#">Casteria</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-      </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-       <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Casteria</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Casteria</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+             <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#">Food</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#">Drink</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="#">お問合せ</a>     
+            </li> 
+          </ul>      
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search_form"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-      <div class="offcanvas-body">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Food</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Drink</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">お問合せ</a>     
-          </li>       
-    <form class="d-flex mt-3" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search_form"/>
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-    </div>
-    </div>
+      </div>
     </nav>
   </div>
  
@@ -59,29 +60,28 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <div class="menu">
-      <ul class="navbar-nav mr-auto mb-2 mb-lg-0 px-3">
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-       <a class="nav-link" aria-current="page" href="#">Food</a>       
-        </li>
-      
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">Drink</a>   
-        </li>
-          <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#">お問合せ</a>
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0 px-3">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
           </li>
-      </ul>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Food</a>       
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Drink</a>   
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">お問合せ</a>
+          </li>
+        </ul>
       </div>
 
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-none" type="submit">Search</button>
       </form>
+      </div>
     </div>
-  </div>
 </nav>
 
 </div>
@@ -179,98 +179,100 @@
 </div>
 
 
+<div class="container justify-content-center">
 
-<div class="imgBox inview fadeIn">
-<div class="row justify-content-center">
 
+<div class="row justify-content-center imgBox inview fadeIn">
 <div class="col-12 ps-4 pt-5 pb-3"><span class="txt_top">Signature Food</span></div>
 <div class="col-12 col-md-6 mb-4 d-flex justify-content-center">
   <img src="../img/food.jpg" class="img-fluid object-fit-cover content_img"></div>
  <div class="col-12 col-md-6 txt_mid">
 サーモンは刺身やカルパッチョで食べる日が美味しいですが、リッチな気分になれるサーモンステーキがおすすめです。サーモンの美味しさを引き立てる2種のソースも絶品です!</div>
+</div>
 
+<div class="row justify-content-center imgBox inview fadeIn">
   <div class="col-12 ps-4 py-3"><span class="txt_top">Our Coffee</span></div>
 <div class="col-12 col-md-6 mb-4 d-flex justify-content-center">
 <img src="../img/barista.jpg" class="img-fluid object-fit-cover content_img"></div>
 <div class="col-12 col-md-6 txt_mid">
 当店のコーヒー豆が厳選して世界中から買い付けています。そして、そのコーヒー豆のおいしさを最大限に引き出すために自社のロースタリーで焙煎しています。</div>
+</div>
 
+<div class="row justify-content-center imgBox inview fadeIn">
   <div class="col-12 ps-4 py-3"><span class="txt_top">Our Food</span></div>
  <div class="col-12 col-md-6 mb-4 d-flex justify-content-center">
 <img src="../img/food3.jpg" class="img-fluid object-fit-cover content_img"></div>
 <div class="col-12 col-md-6 txt_mid">
-当店は何よりまずは衛生管理に気をつけています。「安心・安全」をお届けするために日々継続的な努力を惜しみません。</div>
+  当店は何よりまずは衛生管理に気をつけています。「安心・安全」をお届けするために日々継続的な努力を惜しみません。</div>
+</div>
 
 </div>
 </div>
-
 
 <div class="imgBox inview fadeIn adless mx-auto m-4">
 <div class="navigation">
-<div class="row">
+<div class="row black_adless">
 
 <div class="adless col-12 col-md-6 py-3 ps-3 justify-content-end"><span class="adless_txt">
     <h1 class="bigtxt my-2">Address</h1>
-    <p class="small_txt">681 xxxx Drive, xxxxx xxxx #01 - 06 000000</p>
-    <p class="small_txt">Opning Hours</p>
+      <p class="small_txt">681 xxxx Drive, xxxxx xxxx #01 - 06 000000</p>
+      <p class="small_txt">Opning Hours</p>
     <h1 class="bigtxt my-2">Mondays - Friday: 10am - 9pm</h1>
-    <p class="small_txt">Saturdays & Public Holidays: 9am- 9pm</p>
-    </span>
+      <p class="small_txt">Saturdays & Public Holidays: 9am- 9pm</p>
+  </span>
 </div>
   
 <div class="adless col-12 col-md-6 py-3  d-flex justify-content-start">
-  <div class="adlessimg">
+  <div class="adless_coffee">
     <img src="../img/barista.jpg" class="img-fluid object-fit-cover black_img"></div>
   </div>
 
 </div>
 </div>
 </div>
-</div>
 
-  <div class="imgBox inview fadeIn d-none d-md-block">
-  
-  
+<div class="container"> 
+<div class="imgBox inview fadeIn d-none d-md-block">
 <div class="row mx-5 my-4">
+  
 <h1 class="shoplist col-12 text-center shop_big">店舗一覧</h1>
 
 <div class="col-12 col-md-3 text-center">
-<img src="../img/restaurant2.jpg" class="img-fluid object-fit-cover mx-auto m-0 p-0 adless_img">
+  <img src="../img/restaurant2.jpg" class="img-fluid object-fit-cover mx-auto m-0 p-0 adless_img">
   <i class="bi bi-geo-alt-fill"></i>東京都渋谷区xxxxxx xxxxx
 </div>
 
 <div class="col-12 col-md-3 text-center">
-<img src="../img/restaurant3.jpg" class="img-fluid object-fit-cover mx-auto m-0 p-0 adless_img">
+  <img src="../img/restaurant3.jpg" class="img-fluid object-fit-cover mx-auto m-0 p-0 adless_img">
   <i class="bi bi-geo-alt-fill"></i>千葉県松戸市xxxxx xxxxx
 </div>
 
 <div class="col-12 col-md-3 text-center">
-<img src="../img/restaurant4.jpg" class="img-fluid object-fit-cover mx-auto m-0 p-0 adless_img">
+  <img src="../img/restaurant4.jpg" class="img-fluid object-fit-cover mx-auto m-0 p-0 adless_img">
   <i class="bi bi-geo-alt-fill"></i> 神奈川県横浜市xxxxx xxxx
 </div>
 
 <div class="col-12 col-md-3 text-center">
-<img src="../img/restaurant5.jpg" class="img-fluid object-fit-cover mx-auto m-0 p-0 adless_img">
+  <img src="../img/restaurant5.jpg" class="img-fluid object-fit-cover mx-auto m-0 p-0 adless_img">
   <i class="bi bi-geo-alt-fill"></i> 埼玉県川越市xxxxx xxxx
-  </div>
+</div>
+</div>
 </div>
 </div>
 
-
-<div class="footer">
-  <div class="container-fluid">
-  <div class="row py-4">
-  <nav class="footer_url">
-    <ul class="nav-list justify-content-center">
-      <li class="nav-item"><a href="#">プライバシーポリシー</a></li>
-      <li class="nav-item"><a href="#">お問合せ </a></li>   
-      <li class="nav-item"><a href="#">運営会社</a></li> 
-    </ul>
-  </nav>
-  </div>
+<div class="container-fluid">
+  <div class="footer">
+    <div class="row py-4">
+      <nav class="footer_url">
+        <ul class="nav-list justify-content-center">
+          <li class="nav-item"><a href="#">プライバシーポリシー</a></li>
+          <li class="nav-item"><a href="#">お問合せ </a></li>   
+          <li class="nav-item"><a href="#">運営会社</a></li> 
+        </ul>
+      </nav>
+    </div>
   </div>
 </div>
-
 
 
 

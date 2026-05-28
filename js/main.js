@@ -4,37 +4,31 @@
 const swiper = new Swiper('.swiper', {
   // Optional parameters
   //direction: 'vertical',
-  loop: true,
-  slidePerview: 1,
+    loop: true,
+    slidePerview: 1,
 
-  breakpoints: {
+    breakpoints: {
     800: {
-      slidesPerView: 2,
+    slidesPerView: 2,
   },
 
-450: {
+    450: {
       slidesPerView: 1,
      }
   },
 
-  autoplay: {
-    delay: 3000,  // 3秒ごとにスライドを自動切り替え
+    autoplay: {
+    delay: 3000,
   },
-  // If we need pagination
-  pagination: {
+
+    pagination: {
     el: '.swiper-pagination',
   },
 
-  // Navigation arrows
-  navigation: {
+    navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-
-  // And if we need scrollbar
- // scrollbar: {
-   // el: '.swiper-scrollbar',
-  //},
 });
 
 $(function(){
@@ -44,3 +38,4 @@ $(function(){
     }
   });
 });
+

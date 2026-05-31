@@ -7,14 +7,11 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     slidePerview: 1,
 
+
     breakpoints: {
-    800: {
+    768: {
     slidesPerView: 2,
   },
-
-    450: {
-      slidesPerView: 1,
-     }
   },
 
     autoplay: {

@@ -232,31 +232,3 @@ font-weight:bold;
 }
 
 
-/*???*/
-.pin {
-  display: inline-block;
-  vertical-align: middle;
-  color: #333;
-  line-height: 1;
-  position: relative;
-  width: 0.8em;
-  height: 0.8em;
-  background: currentColor;
-  border: 0.1em solid currentColor;
-  border-radius: 40% 60% 0% 100% / 40% 100% 0% 60%;
-  box-sizing: content-box;
-  transform: rotate(45deg);
-}
-
-.pin::before {
-  content: '';
-  position: absolute;
-  top: 18%;
-  left: 18%;
-  width: 0.336em;
-  height: 0.336em;
-  background: #fff;
-  border-radius: 50%;
-  box-sizing: border-box;
-}
-

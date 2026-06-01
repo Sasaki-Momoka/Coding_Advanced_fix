@@ -24,7 +24,7 @@ a{text-decoration: none;}
 
 body {
     font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-background-color: #FFEFD5;
+    background-color: #FFEFD5;
 }
 
 * {
@@ -45,8 +45,8 @@ background-color: #FFEFD5;
 }
 
 .navbar-toggler:focus {
-  box-shadow:0px 0px 0px 2px #FFD700,
-  0px 0px 0px 4px #FFFAFA;
+    box-shadow:0px 0px 0px 2px #FFD700,
+    0px 0px 0px 4px #FFFAFA;
 }
 
 .navbar-brand {
@@ -80,16 +80,16 @@ background-color: #FFEFD5;
 
 input[type="submit"],
 input[type="Search"] {
-  border: none; 
-  outline: none;  
-  border-radius: 2px;
+    border: none; 
+    outline: none;  
+    border-radius: 2px;
 }
 
 
 /* Swiper */
 .swiper {
-  width: auto;
-  height: 500px;
+    width: auto;
+    height: 500px;
 }
 
 .swiper-slide {
@@ -106,19 +106,42 @@ input[type="Search"] {
     height:100%;
 }
 
+@media screen and (max-width:450px) {
+.swiper {
+    width: auto;
+    height: 500px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    background-color: #FFEFD5;
+}
+
+.swiper-slide > img {
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    width:auto;
+    aspect-ratio: 1/1;
+}
+}
+
 /*　アコーディオン　*/
 .fadeIn {
-  opacity: 0;
-  transform: translateY(100px);
-  transition: 2s;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 2s;
 }
 .fadeIn.is-show {
-  opacity: 1;
+    opacity: 1;
 }
 
 .accordion-body ul, li {
     list-style-type: disc; 
-font-size: 17px;
+    font-size: 17px;
 }
 
 .accordion-button {
@@ -126,15 +149,15 @@ font-size: 17px;
 }
 
 .accordion-button:focus {
-  box-shadow: none !important;
-  background-color: #FFC7AF;
-  color: black;
+    box-shadow: none !important;
+    background-color: #FFC7AF;
+    color: black;
 }
 
 .accordion-button:not(.collapsed) {
-   box-shadow: none;
-   background-color:  #FFC7AF;
-   color: black;
+    box-shadow: none;
+    background-color:  #FFC7AF;
+    color: black;
 }
 
 
@@ -153,8 +176,8 @@ font-size: 17px;
 }
 
 .content_img {
-   width: 100%;
-  max-width: none !important;
+    width: 100%;
+    max-width: none !important;
 }
 
 .txt_top {
@@ -167,7 +190,7 @@ font-size: 17px;
 .navigation {
     display: flex;
     justify-content: center;
-       color: white;
+    color: white;
      
 }
 
@@ -179,7 +202,7 @@ font-size: 17px;
 
 .bigtxt{
     font-size: 20px;
-font-weight:bold;
+    font-weight:bold;
 }
 
 .small_txt {
@@ -192,10 +215,8 @@ font-weight:bold;
 
 /*店舗一覧*/
 
-.shop_big {
-    font-size: 20px;
-    padding-top: 30px;
-}
+
+
 
 .shoplist h1 {
     display: flex;
@@ -205,8 +226,7 @@ font-weight:bold;
 }
 
 .adless_img {
-    display: flex;
-    justify-content: center;
+
     border-radius: 50%;
      width: 200px;  
     height: 200px; 
@@ -215,7 +235,6 @@ font-weight:bold;
 
 /*フッター*/
 .footer {
-    position: absolute;
     width: 100%;
     background-color: #999999;
 }
@@ -225,10 +244,9 @@ font-weight:bold;
 }
 
 .nav-list {
-  display: flex;
-  gap: 30px;
-  padding: 0;
-  margin: 0 0 20px 0;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0 0 20px 0;
 }
-
 
